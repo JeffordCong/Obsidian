@@ -1,0 +1,11 @@
+formulas:
+  未命名: ""
+views:
+  - type: table
+    name: 表格
+    filters:
+      and:
+        - file.folder == "Houdini/节点"
+        - file.ext != "base"
+    order:
+      - file.name
