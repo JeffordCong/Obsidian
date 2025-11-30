@@ -1,5 +1,6 @@
 {
   "strictLineBreaks": true,
   "promptDelete": false,
-  "attachmentFolderPath": "Media/Image"
+  "attachmentFolderPath": "Media/Image",
+  "focusNewTab": true
 }
