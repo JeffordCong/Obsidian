@@ -2,6 +2,9 @@
 ##### volumesample
 采样Volume
 
-`@p.y = volumesample(1,"height",@P);`
 
+```  C
+// 采样Volume在当前点的高度"height"
+p.y = volumesample(1,"height",@P);
+```
 
