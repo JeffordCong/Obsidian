@@ -14,13 +14,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Houdini/HScript 表达式.md",
+                "file": "Houdini/VEX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "HScript 表达式"
+              "title": "VEX"
             }
           }
         ]
@@ -118,13 +118,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Houdini/HScript 表达式.md",
+                "file": "Houdini/VEX.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "HScript 表达式 的大纲"
+              "title": "VEX 的大纲"
             }
           },
           {
@@ -187,12 +187,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Houdini/HScript 表达式.md",
+                "file": "Houdini/VEX.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "HScript 表达式 的出链列表"
+              "title": "VEX 的出链列表"
             }
           }
         ],
@@ -218,9 +218,9 @@
   },
   "active": "cafb5583aef455dd",
   "lastOpenFiles": [
-    "Houdini/VEX.md",
     "Houdini/HScript 表达式.md",
     "Houdini/节点/未命名.md",
+    "Houdini/VEX.md",
     "Houdini/节点/节点.base",
     "Houdini/Vex",
     "Houdini/节点/未命名 1.md",
