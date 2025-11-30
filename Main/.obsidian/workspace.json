@@ -6,7 +6,7 @@
       {
         "id": "26e2e7bd9239cfcf",
         "type": "tabs",
-        "dimension": 59.418282548476455,
+        "dimension": 55.72792362768496,
         "children": [
           {
             "id": "cafb5583aef455dd",
@@ -28,7 +28,7 @@
       {
         "id": "6e586f5ef16d69f4",
         "type": "tabs",
-        "dimension": 40.581717451523545,
+        "dimension": 44.272076372315034,
         "children": [
           {
             "id": "8197d888eb499e97",
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 232.5
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,7 +216,7 @@
       "hide-folders:Hide hidden folders again": false
     }
   },
-  "active": "8197d888eb499e97",
+  "active": "cafb5583aef455dd",
   "lastOpenFiles": [
     "Houdini/VEX.md",
     "Houdini/HScript 表达式.md",
