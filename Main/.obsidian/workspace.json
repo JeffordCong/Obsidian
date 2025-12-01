@@ -194,15 +194,13 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hide-folders:Hide hidden folders again": false,
       "graph:查看关系图谱": false,
       "obsidian-git:Open Git source control": false,
       "workspaces:管理工作区布局": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": true,
       "switcher:打开快速切换": true,
-      "canvas:新建白板": true,
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
-      "hide-folders:Show hidden folders": false,
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
