@@ -8,12 +8,6 @@
 #### WaitForTargetFPS
 
 
-官网的描述：
-
-If the sample is a subsample of Gfx.WaitForPresentOnGfxThread, it represents the amount of time that your application spent waiting for the GPU. For example, this could be time that the GPU spent waiting for the next VSync, if that is configured in QualitySettings.vSyncCount, or if vSync is enforced on your target platform. However, samples with this marker are also emitted if the GPU hasn’t finished computing the frame.
-
-
-
 **WaitForTargetFPS** 是 Unity 主线程（Main Thread）在当前帧的所有逻辑处理（Update、Physics、Animation）和渲染提交（Rendering）完成后，为了**强制对齐**设定的目标帧率（`Application.targetFrameRate`），而执行的一种**主动节流（Throttling）或休眠操作**。
 
 
@@ -35,14 +29,13 @@ $$T_{wait} = T_{target} - T_{actual}$$
 
 
 
-
 #### WaitForLastPresent和 WaitForPresent
 
 这二者都属于渲染管线末端（Back-end）的同步等待，但它们的等待时机和根本原因不同。
 
 ##### 1. `Gfx.WaitForPresent` (最常见)
 
-**定义：** 这是 CPU 主线程或渲染线程在**一帧的最后**，请求 GPU 展示画面（Swap Chain Flip）时发生的等待。
+**定义：** 这是 CPU 主线程或渲染线程在一帧的最后，请求 GPU 展示画面时发生的等待。
 
 **底层原理：** 当 CPU 提交完命令缓冲区（CommandBuffer）后，调用底层图形 API（如 `d3dPresent`、`eglSwapBuffers`、`vkQueuePresentKHR`）。此时会发生两种情况：
 
