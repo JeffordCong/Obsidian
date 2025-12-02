@@ -51,3 +51,6 @@
     2.  **架构设计**：`ScriptableRenderContext` 在 CPU 端构建一个‘渲染指令列表’（序列化数据）。
     3.  **API 映射**：当你调用 `Submit()` 时，Unity 会将这个列表翻译成底层的 Vulkan `vkCmdExecuteCommands` 或 DX12 的 `CommandList`，一次性推送到驱动层的 Ring Buffer 中供 GPU 读取。
     4.  **结论**：它是为了解耦渲染逻辑与底层驱动，利用批量提交来最大化吞吐量。”
+
+
+zai'b
