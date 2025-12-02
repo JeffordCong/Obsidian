@@ -35,9 +35,7 @@ $$T_{wait} = T_{target} - T_{actual}$$
 
 ##### 1. `Gfx.WaitForPresent` (最常见)
 
-**定义：** 这是 CPU 主线程或渲染线程在一帧的最后，请求 GPU 展示画面时发生的等待。
-
-**底层原理：** 当 CPU 提交完命令缓冲区（CommandBuffer）后，调用底层图形 API（如 `d3dPresent`、`eglSwapBuffers`、`vkQueuePresentKHR`）。此时会发生两种情况：
+这是 CPU 主线程或渲染线程在一帧的最后，请求 GPU 展示画面时发生的等待。当 CPU 提交完命令缓冲区（CommandBuffer）后，调用底层图形 API（如 `d3dPresent`、`eglSwapBuffers`、`vkQueuePresentKHR`）。此时会发生两种情况：
 
 1. **VSync 等待 (Normal):**
     
