@@ -8,5 +8,13 @@
       ],
       "key": "ArrowDown"
     }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "Q"
+    }
   ]
 }
