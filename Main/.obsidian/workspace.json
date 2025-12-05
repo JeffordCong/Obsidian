@@ -111,7 +111,8 @@
               "title": "书签"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -231,9 +232,9 @@
   },
   "active": "567a51d0cf3cb8f7",
   "lastOpenFiles": [
-    "AI/优化语句：.md",
-    "AI/图形引擎工程师兼导师.md",
     "Unity/Unity Profiler.md",
+    "AI/图形引擎工程师兼导师.md",
+    "AI/优化语句：.md",
     "Unity",
     "性能优化",
     "Houdini/VEX.md",
