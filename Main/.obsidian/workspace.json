@@ -219,6 +219,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "hide-folders:Show hidden folders": false,
       "graph:查看关系图谱": false,
       "workspaces:管理工作区布局": false,
       "switcher:打开快速切换": true,
@@ -226,8 +227,7 @@
       "command-palette:打开命令面板": false,
       "bases:创建新数据库": false,
       "obsidian-git:Open Git source control": false,
-      "oz-clear-unused-images:Clear Unused Images": false,
-      "hide-folders:Hide hidden folders again": false
+      "oz-clear-unused-images:Clear Unused Images": false
     }
   },
   "active": "ab708cd2176de451",
