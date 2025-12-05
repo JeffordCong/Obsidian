@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AI/优化语句：.md",
+                "file": "AI/图形引擎工程师兼导师.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "优化语句："
+              "title": "图形引擎工程师兼导师"
             }
           },
           {
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "性能优化/Unity Profiler.md",
+                "file": "Unity/Unity Profiler.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -37,8 +37,7 @@
               "title": "Unity Profiler"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "45b6e92bc89fadea",
@@ -50,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "性能优化/Unity Profiler.md",
+                "file": "Unity/Unity Profiler.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
@@ -116,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 369.5
   },
   "right": {
     "id": "a86af432e34663ac",
@@ -132,13 +131,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Houdini/VEX.md",
+                "file": "AI/图形引擎工程师兼导师.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "VEX 的大纲"
+              "title": "图形引擎工程师兼导师 的大纲"
             }
           },
           {
@@ -170,7 +169,8 @@
               "title": "all-properties"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "12c8ad872a0abfab",
@@ -201,12 +201,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Houdini/VEX.md",
+                "file": "AI/图形引擎工程师兼导师.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "VEX 的出链列表"
+              "title": "图形引擎工程师兼导师 的出链列表"
             }
           }
         ],
@@ -214,8 +214,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,12 +229,12 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "5886373f9317e0c7",
+  "active": "567a51d0cf3cb8f7",
   "lastOpenFiles": [
-    "未命名",
-    "AI/图形引擎工程师兼导师.md",
-    "性能优化/Unity Profiler.md",
     "AI/优化语句：.md",
+    "AI/图形引擎工程师兼导师.md",
+    "Unity/Unity Profiler.md",
+    "Unity",
     "性能优化",
     "Houdini/VEX.md",
     "Houdini/HScript 表达式.md",
