@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "Unity/深度缓冲反推世界空间坐标.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -50,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "Unity/深度缓冲反推世界空间坐标.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false,
                 "backlinks": false
               },
@@ -187,8 +187,7 @@
               "title": "Source Control"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       },
       {
         "id": "12c8ad872a0abfab",
@@ -232,7 +231,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 461.5
+    "width": 322.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -247,7 +246,7 @@
       "oz-clear-unused-images:Clear Unused Images": false
     }
   },
-  "active": "567a51d0cf3cb8f7",
+  "active": "d9165920dba113e9",
   "lastOpenFiles": [
     "Unity/Unity Profiler.md",
     "Unity/深度缓冲反推世界空间坐标.md",
